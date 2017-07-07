@@ -1,0 +1,11 @@
+F:\Workspace_IntelliJ\NewTraning_CMS\src\com\sinosoft\lis\rulelibrary\LARulePublishBL.java
+F:\Workspace_IntelliJ\NewTraning_CMS\src\com\sinosoft\lis\rulelibrary\LARuleStatusBL.java
+F:\Workspace_IntelliJ\NewTraning_CMS\src\com\sinosoft\lis\DailyManagement\PolicyAssignmentManagementUI.java
+F:\Workspace_IntelliJ\NewTraning_CMS\src\com\sinosoft\lis\rulelibrary\LAIndexBL.java
+F:\Workspace_IntelliJ\NewTraning_CMS\src\com\sinosoft\lis\rulelibrary\LAIndexResultBL.java
+F:\Workspace_IntelliJ\NewTraning_CMS\src\com\sinosoft\lis\rulelibrary\LAIndexUI.java
+F:\Workspace_IntelliJ\NewTraning_CMS\src\com\sinosoft\lis\rulelibrary\LARulePublishUI.java
+F:\Workspace_IntelliJ\NewTraning_CMS\src\com\sinosoft\lis\rulelibrary\LAIndexResultUI.java
+F:\Workspace_IntelliJ\NewTraning_CMS\src\com\sinosoft\lis\ProducerReport\AgentRelationshipEnquiryBL.java
+F:\Workspace_IntelliJ\NewTraning_CMS\src\com\sinosoft\lis\DailyManagement\PolicyAssignmentManagementBL.java
+F:\Workspace_IntelliJ\NewTraning_CMS\src\com\sinosoft\lis\rulelibrary\LARuleStatusUI.java

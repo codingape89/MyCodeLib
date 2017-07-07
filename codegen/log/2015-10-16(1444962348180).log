@@ -1,0 +1,29 @@
+[INFO]扫描文件夹：SystemConfiguration
+[INFO]解析文件：codegen\def\SystemConfiguration\InternatinoalItemSetting.xls
+[WARNING]读取文件失败：codegen\def\SystemConfiguration\InternatinoalItemSetting.xls
+[INFO]解析Sheet：InternatinoalItemSetting
+[INFO]解析表单：fm
+[INFO]解析Div：操作
+[INFO]解析Sheet：InternatinoalItemSettingQuery
+[INFO]解析表单：fm
+[INFO]解析Div：Query Condition
+[INFO]解析Table：table1
+[INFO]解析Div：Operation
+[INFO]解析操作
+[INFO]解析Div：Query Info
+[INFO]解析MulLine
+[INFO]生成文件：F:\EProject\CodeLib\codegen\code\ui\SystemConfiguration\InternatinoalItemSettingQuery.jsp
+[INFO]生成文件：F:\EProject\CodeLib\codegen\code\ui\SystemConfiguration\InternatinoalItemSettingQueryInput.jsp
+[INFO]生成文件：F:\EProject\CodeLib\codegen\code\ui\SystemConfiguration\InternatinoalItemSettingQueryInit.jsp
+[INFO]生成文件：F:\EProject\CodeLib\codegen\code\ui\SystemConfiguration\InternatinoalItemSettingQueryInput.js
+[INFO]SheetInternatinoalItemSettingQuery解析完成
+[INFO]解析操作
+[INFO]解析Div：基本信息
+[INFO]解析Table：table1
+[WARNING]覆盖文件：F:\EProject\CodeLib\codegen\code\ui\SystemConfiguration\InternatinoalItemSettingInput.jsp
+[WARNING]覆盖文件：F:\EProject\CodeLib\codegen\code\ui\SystemConfiguration\InternatinoalItemSettingInit.jsp
+[WARNING]覆盖文件：F:\EProject\CodeLib\codegen\code\ui\SystemConfiguration\InternatinoalItemSettingInput.js
+[WARNING]覆盖文件：F:\EProject\CodeLib\codegen\code\ui\SystemConfiguration\InternatinoalItemSettingSave.jsp
+[WARNING]覆盖文件：F:\EProject\CodeLib\codegen\code\src\com\sinosoft\lis\SystemConfiguration\InternatinoalItemSettingUI.java
+[WARNING]覆盖文件：F:\EProject\CodeLib\codegen\code\src\com\sinosoft\lis\SystemConfiguration\InternatinoalItemSettingBL.java
+[INFO]SheetInternatinoalItemSetting解析完成
