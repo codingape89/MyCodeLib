@@ -13,13 +13,13 @@ import java.util.ArrayList;
 public class FileEncodingTransform {
 	
 	public static void main(String[] args) {
-        String fromPath = "F:\\EProject\\Lis65\\java_schema";
-        String toPath1  = "F:\\EProject\\Lis65-NEW\\java_schema";
+        String fromPath = "E:\\Workspace_Idea\\AVIVA_My_gpcms-main\\src\\main\\ui";
+        String toPath1  = "E:\\AVIVA_gpcms-main-3\\src\\main\\ui";
         //最后，将 toPath2覆盖toPath1，再将 toPath1覆盖fromPath
-        String Encode1 = "UTF-8";
-        String Encode2 = "GBK";
+        String EncodeUTF8 = "UTF-8";
+        String EncodeGBK = "GBK";
         FileEncodingTransform tFileEncodingTransform = new FileEncodingTransform();
-        tFileEncodingTransform.transform1(fromPath, Encode2, toPath1, Encode1);
+        tFileEncodingTransform.transform1(fromPath, EncodeGBK, toPath1, EncodeUTF8);
 	}
 	
 	private String[] allowFileTypeList1 = {".jsp",".js",".java",".html",".css",".xsl",".xml"};//文件格式转码类型列表
