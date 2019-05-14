@@ -100,9 +100,7 @@ public class DingRecordSyncController {
       result = strber.toString();
       System.out.println(result);
       if (httpResponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
-
         System.out.println("请求服务器成功，做相应处理");
-
       } else {
         System.out.println("请求服务端失败");
       }
@@ -139,15 +137,18 @@ public class DingRecordSyncController {
         hasMore = firstJson.getBoolean("hasMore");
         JSONArray recordFirst = firstJson.getJSONArray("recordresult");//当前部门下的userList
 
-        for (int j = 0; j < recordFirst.size(); j++) {
-          JSONObject record = recordFirst.getJSONObject(j);
-          AttendanceQvo attendanceQvo = new AttendanceQvo();
-          attendanceQvo.setCheckType(record.getString("checkType"));
-          attendanceQvo.setUserId(record.getString("userId"));
-          attendanceQvo.setWorkDate(record.getLong("workDate"));
-          attendanceQvo.setUserCheckTime(record.getLong("userCheckTime"));
-          users.add(attendanceQvo);
+        if(recordFirst!=null){
+          for (int j = 0; j < recordFirst.size(); j++) {
+            JSONObject record = recordFirst.getJSONObject(j);
+            AttendanceQvo attendanceQvo = new AttendanceQvo();
+            attendanceQvo.setCheckType(record.getString("checkType"));
+            attendanceQvo.setUserId(record.getString("userId"));
+            attendanceQvo.setWorkDate(record.getLong("workDate"));
+            attendanceQvo.setUserCheckTime(record.getLong("userCheckTime"));
+            users.add(attendanceQvo);
+          }
         }
+        if(hasMore == null){hasMore = false;}
         if (hasMore) {//有下一页偏移量加一
           offset++;
         }
